@@ -1,0 +1,26 @@
+id_pregunta,preguntas,id_tema
+Deri-1,¿Cuál es la definición formal de derivada de una función en un punto?,1
+Deri-2,¿Cómo se calcula la derivada de una función compuesta utilizando la regla de la cadena?,1
+Deri-3,¿Cuál es la interpretación geométrica de la derivada como pendiente de la recta tangente a la curva en un punto?,1
+Deri-4,¿Cuál es la diferencia entre una derivada derecha y una derivada izquierda?,1
+Deri-5,¿Cuál es la definición formal de derivada de una función en un punto?,1
+RdD-1,¿Cuál es la regla del producto y cómo se aplica para derivar el producto de dos funciones?,2
+RdD-2,¿Cuál es la regla del cociente y cómo se utiliza para derivar el cociente de dos funciones?,2
+RdD-3,¿Qué es la regla de la cadena y cuál es su importancia en el cálculo de derivadas de funciones compuestas?,2
+RdD-4,¿Cómo se deriva una función exponencial o logarítmica utilizando las reglas de derivación?,2
+RdD-5,¿Existen reglas de derivación específicas para funciones trigonométricas?,2
+AdlD-1,¿Cómo se utiliza la derivada para encontrar máximos y mínimos de una función?,3
+AdlD-2,¿Cuál es la relación entre la derivada de una función y su gráfica?,3
+AdlD-3,¿Cómo se utilizan las derivadas para resolver problemas de optimización en economía y negocios?,3
+AdlD-4,¿Qué información proporciona la segunda derivada de una función sobre su comportamiento?,3
+AdlD-5,"¿Cuál es la aplicación de la derivada en el cálculo de velocidad, aceleración y movimiento en física?",3
+TdVM-1,¿Cuál es la formulación del teorema del valor medio para una función continua en un intervalo cerrado y derivable en el intervalo abierto?,4
+TdVM-2,¿Cómo se relaciona el teorema del valor medio con la existencia de un punto donde la tangente a la curva es paralela a la secante?,4
+TdVM-3,¿Qué condiciones deben cumplirse para aplicar el teorema del valor medio generalizado?,4
+TdVM-4,¿Cuál es la importancia del teorema del valor medio en el análisis de funciones?,4
+TdVM-5,¿Cuál es la diferencia entre el teorema del valor medio y el teorema del valor medio generalizado?,4
+DdPyG-1,¿Cómo se calcula una derivada parcial de una función de varias variables respecto a una de esas variables?,5
+DdPyG-2,¿Cuál es la interpretación geométrica de una derivada parcial?,5
+DdPyG-3,¿Qué es el gradiente de una función y cómo se relaciona con las derivadas parciales?,5
+DdPyG-4,¿Cuál es la importancia del gradiente en la optimización de funciones de varias variables?,5
+DdPyG-5,¿Cómo se utiliza el gradiente para determinar la dirección de máximo crecimiento de una función en un punto dado?,5

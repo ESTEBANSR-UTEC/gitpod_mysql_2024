@@ -1,0 +1,151 @@
+id_respuesta,id_pregunta,respuesta,ia,calidad_respuesta
+1,Deri-1,"La derivada de f en el punto x es el límite limh→0​hf(x+h)−f(x)​, si este límite existe.","GPT-3,5",3
+2,Deri-1,La derivada mide la tasa de cambio instantánea de la función en ese punto.,Gemini,4
+3,Deri-1,Definición formal de derivada: La derivada de una función f(x) en un punto x=a es el límite del cociente incremental cuando el incremento de x tiende a cero.,Copilot,5
+4,Deri-2,"Si y=f(g(x)), entonces dxdy​=f′(g(x))⋅g′(x).","GPT-3,5",4
+5,Deri-2,La derivada de una función compuesta es el producto de la derivada de la función externa evaluada en la función interna y la derivada de la función interna.,Gemini,4
+6,Deri-2,Se utiliza para calcular la derivada de una función compuesta. La derivada de v(u(x)) es du/dv​⋅dx/du​,Copilot,5
+7,Deri-3,La derivada en un punto x es la pendiente de la línea tangente a la gráfica de la función en x.,"GPT-3,5",4
+8,Deri-3,Una pendiente positiva indica que la función está aumentando en ese punto.,Gemini,3
+9,Deri-3, La derivada en un punto es la pendiente de la línea tangente a la curva de la función en ese punto.,Copilot,3
+10,Deri-4,La derivada derecha en x se calcula como limh→0+​hf(x+h)−f(x)​.,"GPT-3,5",5
+11,Deri-4,La derivada izquierda en x se calcula como limh→0−​hf(x+h)−f(x)​.,Gemini,4
+12,Deri-4,"La derivada derecha se calcula considerando los valores a la derecha del punto, y la izquierda considerando los valores a la izquierda. Si son iguales, la función es derivable en el punto.",Copilot,4
+13,Deri-5,"La segunda derivada f′′(x) se utiliza para determinar la concavidad. Si f′′(x)>0, la función es cóncava hacia arriba (convexa) en x.","GPT-3,9",5
+14,Deri-5,"Si f′′(x)<0, la función es cóncava hacia abajo (cóncava) en x.",Gemini,5
+15,Deri-5,"La derivada de una función en un punto es el límite del cociente incremental cuando el incremento de ""x"" que tiende a cero",Copilot,5
+16,RdD-1,"La regla del producto establece que si u(x) y v(x) son funciones, entonces (uv)′=u′v+uv′.","GPT-3,5",3
+17,RdD-1,"Ejemplo: Si u=x2 y v=sin(x), entonces (uv)′=2x⋅sin(x)+x2⋅cos(x).",Gemini,3
+18,RdD-1,Se utiliza para derivar el producto de dos funciones. La derivada de f(x)g(x) es f′(x)g(x)+f(x)g′(x),Copilot,5
+19,RdD-2,"La regla del cociente establece que si u(x) y v(x) son funciones, entonces (vu​)′=v2u′v−uv′​.","GPT-3,5",3
+20,RdD-2,"Ejemplo: Si u=x2 y v=cos(x), entonces (vu​)′=cos2(x)2x⋅cos(x)−x2⋅(−sin(x))​.",Gemini,3
+21,RdD-2,Se utiliza para derivar el cociente de dos funciones. La derivada de g(x)f(x)​ es [g(x)]2f′(x)g(x)−f(x)g′(x)​,Copilot,3
+22,RdD-3,"La regla de la cadena se usa para derivar funciones compuestas. Si y=f(g(x)), entonces dxdy​=f′(g(x))⋅g′(x).","GPT-3,5",5
+23,RdD-3,Es esencial para derivar funciones donde una función está anidada dentro de otra.,Gemini,5
+24,RdD-3,Es fundamental para calcular derivadas de funciones compuestas. Permite derivar cada función por separado.,Copilot,5
+25,RdD-4,"Para una función exponencial f(x)=ex, la derivada es f′(x)=ex.","GPT-3,5",4
+26,RdD-4,"Para una función logarítmica f(x)=ln(x), la derivada es f′(x)=x1​.",Gemini,4
+27,RdD-4,"Se utilizan reglas específicas. Por ejemplo, la derivada de ex es ex , y la derivada de ln(x) es x1​",Copilot,3
+28,RdD-5,"Sí, la derivada de sin(x) es cos(x).","GPT-3,5",4
+29,RdD-5,La derivada de cos(x) es −sin(x).,Gemini,4
+30,RdD-5,"Sí, existen. Por ejemplo, la derivada de sin(x) es cos(x), y la de cos(x) es −sin(x).",Copilot,4
+31,AdlD-1,Los puntos críticos se encuentran donde f′(x)=0 o f′(x) no existe.,"GPT-3,5",4
+32,AdlD-1,"Se usa la prueba de la primera derivada: si f′(x) cambia de positivo a negativo, hay un máximo local; si cambia de negativo a positivo, hay un mínimo local.",Gemini,4
+33,AdlD-1,Los máximos y mínimos de una función ocurren donde su derivada es cero o no existe.,Copilot,3
+34,AdlD-2,La derivada proporciona la pendiente de la tangente a la gráfica en un punto dado.,"GPT-3,5",5
+35,AdlD-2,La derivada indica si la función está aumentando o disminuyendo en ese punto.,Gemini,4
+36,AdlD-2,La derivada en un punto indica la pendiente de la tangente a la gráfica en ese punto.,Copilot,5
+37,AdlD-3,"En economía, se puede usar para maximizar beneficios o minimizar costos encontrando puntos críticos de funciones de ingreso y costo.","GPT-3,5",4
+38,AdlD-3,"En negocios, se pueden usar para optimizar producción y logística analizando funciones de costo y demanda.",Gemini,3
+39,AdlD-3,"Se utilizan para optimizar funciones, como minimizar costos o maximizar ganancias.",Copilot,3
+40,AdlD-4,"La segunda derivada indica la concavidad de la función: si f′′(x)>0, la función es cóncava hacia arriba; si f′′(x)<0, es cóncava hacia abajo.","GPT-3,5",4
+41,AdlD-4,Ayuda a identificar puntos de inflexión donde la concavidad cambia.,Gemini,5
+42,AdlD-4,Proporciona información sobre la concavidad de la función y los puntos de inflexión,Copilot,3
+43,AdlD-5,La velocidad es la derivada de la posición respecto al tiempo: v(t)=dtd​s(t).,"GPT-3,5",3
+44,AdlD-5,La aceleración es la derivada de la velocidad respecto al tiempo: a(t)=dtd​v(t).,Gemini,4
+45,AdlD-5,Se utiliza para calcular velocidad (derivada de la posición) y aceleración (derivada de la velocidad).,Copilot,4
+46,TdVM-1,"Si f es continua en [a,b] y derivable en (a,b), entonces existe c∈(a,b) tal que f′(c)=b−af(b)−f(a)​.","GPT-3,5",5
+47,TdVM-1,"Garantiza que en algún punto c dentro del intervalo, la derivada de f es igual a la pendiente de la secante que une f(a) y f(b).",Gemini,3
+48,TdVM-1,"Establece que si una función es continua en un intervalo cerrado y derivable en el intervalo abierto, entonces existe al menos un punto en el intervalo donde la derivada es igual a la pendiente de la secante.",Copilot,5
+49,TdVM-2,El teorema del valor medio asegura que hay al menos un punto c donde la tangente (derivada) es paralela a la secante que une los extremos del intervalo.,"GPT-3,5",4
+50,TdVM-2,La pendiente de la secante es b−af(b)−f(a)​ y existe un c tal que f′(c)=b−af(b)−f(a)​.,Gemini,4
+51,TdVM-2,El teorema garantiza la existencia de un punto donde la tangente es paralela a la secante.,Copilot,4
+52,TdVM-3,"La función debe ser continua en el intervalo cerrado [a,b].","GPT-3,5",3
+53,TdVM-3,"La función debe ser derivable en el intervalo abierto (a,b).",Gemini,4
+54,TdVM-3,La función debe ser continua en el intervalo cerrado y derivable en el intervalo abierto.,Copilot,4
+55,TdVM-4,Proporciona una herramienta para probar la existencia de soluciones intermedias.,"GPT-3,5",5
+56,TdVM-4,"Ayuda a establecer propiedades de las funciones, como el crecimiento y comportamiento local.",Gemini,5
+57,TdVM-4,"Es fundamental en el análisis de funciones, ya que proporciona información sobre la tasa de cambio promedio de la función.",Copilot,4
+58,TdVM-5,"El teorema del valor medio se aplica a funciones continuas en [a,b] y derivables en (a,b).","GPT-3,5",3
+59,TdVM-5,El teorema del valor medio generalizado puede aplicarse a funciones no derivables en puntos aislados dentro del intervalo.,Gemini,4
+60,TdVM-5,El teorema del valor medio generalizado se aplica a funciones con más de una variable.,Copilot,5
+61,DdPyG-1,Se mantiene constante todas las variables excepto la que se está derivando.,"GPT-3,5",3
+62,DdPyG-1,"Ejemplo: Si f(x,y)=x2+y2, entonces la derivada parcial respecto a x es ∂x∂f​=2x.",Gemini,4
+63,DdPyG-1,"Se calcula derivando la función respecto a una variable, manteniendo las demás constantes.",Copilot,5
+64,DdPyG-2,"Representa la tasa de cambio de la función en la dirección de una variable específica, manteniendo las otras variables constantes.","GPT-3,5",3
+65,DdPyG-2,Corresponde a la pendiente de la curva que se obtiene al cortar la superficie con un plano paralelo al eje de esa variable.,Gemini,3
+66,DdPyG-2,Es la pendiente de la tangente a la curva en la dirección de la variable.,Copilot,4
+67,DdPyG-3,El gradiente es un vector que contiene todas las derivadas parciales de una función de varias variables.,"GPT-3,5",5
+68,DdPyG-3,"Para f(x,y,z), el gradiente es ∇f=(∂x∂f​,∂y∂f​,∂z∂f​).",Gemini,5
+69,DdPyG-3,Es un vector que contiene todas las derivadas parciales de la función.,Copilot,4
+70,DdPyG-4,El gradiente se usa para encontrar los puntos críticos (donde el gradiente es cero).,"GPT-3,5",3
+71,DdPyG-4,Ayuda a determinar direcciones de descenso para minimizar funciones (método del gradiente descendente).,Gemini,5
+72,DdPyG-4,Indica la dirección de máximo crecimiento de una función en un punto dado.,Copilot,4
+73,DdPyG-5,El gradiente apunta en la dirección de máximo crecimiento de la función en ese punto.,"GPT-3,5",4
+74,DdPyG-5,La magnitud del gradiente indica la tasa de cambio en esa dirección.,Gemini,5
+75,DdPyG-5,Se utiliza para determinar la dirección de máximo crecimiento de una función en un punto dado.,Copilot,3
+76,Deri-1,"La derivada de f en el punto x es el límite limh→0​hf(x+h)−f(x)​, si este límite existe.",Llama3,3
+77,Deri-1,La derivada mide la tasa de cambio instantánea de la función en ese punto.,Mixtral,4
+78,Deri-1,Definición formal de derivada: La derivada de una función f(x) en un punto x=a es el límite del cociente incremental cuando el incremento de x tiende a cero.,Gemma,5
+79,Deri-2,"Si y=f(g(x)), entonces dxdy​=f′(g(x))⋅g′(x).",Llama3,4
+80,Deri-2,La derivada de una función compuesta es el producto de la derivada de la función externa evaluada en la función interna y la derivada de la función interna.,Mixtral,4
+81,Deri-2,Se utiliza para calcular la derivada de una función compuesta. La derivada de v(u(x)) es du/dv​⋅dx/du​,Gemma,5
+82,Deri-3,La derivada en un punto x es la pendiente de la línea tangente a la gráfica de la función en x.,Llama3,4
+83,Deri-3,Una pendiente positiva indica que la función está aumentando en ese punto.,Mixtral,3
+84,Deri-3, La derivada en un punto es la pendiente de la línea tangente a la curva de la función en ese punto.,Gemma,3
+85,Deri-4,La derivada derecha en x se calcula como limh→0+​hf(x+h)−f(x)​.,Llama3,5
+86,Deri-4,La derivada izquierda en x se calcula como limh→0−​hf(x+h)−f(x)​.,Mixtral,4
+87,Deri-4,"La derivada derecha se calcula considerando los valores a la derecha del punto, y la izquierda considerando los valores a la izquierda. Si son iguales, la función es derivable en el punto.",Gemma,4
+88,Deri-5,"La segunda derivada f′′(x) se utiliza para determinar la concavidad. Si f′′(x)>0, la función es cóncava hacia arriba (convexa) en x.",Llama3,5
+89,Deri-5,"Si f′′(x)<0, la función es cóncava hacia abajo (cóncava) en x.",Mixtral,5
+90,Deri-5,"La derivada de una función en un punto es el límite del cociente incremental cuando el incremento de ""x"" que tiende a cero",Gemma,5
+91,RdD-1,"La regla del producto establece que si u(x) y v(x) son funciones, entonces (uv)′=u′v+uv′.",Llama3,3
+92,RdD-1,"Ejemplo: Si u=x2 y v=sin(x), entonces (uv)′=2x⋅sin(x)+x2⋅cos(x).",Mixtral,3
+93,RdD-1,Se utiliza para derivar el producto de dos funciones. La derivada de f(x)g(x) es f′(x)g(x)+f(x)g′(x),Gemma,5
+94,RdD-2,"La regla del cociente establece que si u(x) y v(x) son funciones, entonces (vu​)′=v2u′v−uv′​.",Llama3,3
+95,RdD-2,"Ejemplo: Si u=x2 y v=cos(x), entonces (vu​)′=cos2(x)2x⋅cos(x)−x2⋅(−sin(x))​.",Mixtral,3
+96,RdD-2,Se utiliza para derivar el cociente de dos funciones. La derivada de g(x)f(x)​ es [g(x)]2f′(x)g(x)−f(x)g′(x)​,Gemma,3
+97,RdD-3,"La regla de la cadena se usa para derivar funciones compuestas. Si y=f(g(x)), entonces dxdy​=f′(g(x))⋅g′(x).",Llama3,5
+98,RdD-3,Es esencial para derivar funciones donde una función está anidada dentro de otra.,Mixtral,5
+99,RdD-3,Es fundamental para calcular derivadas de funciones compuestas. Permite derivar cada función por separado.,Gemma,5
+100,RdD-4,"Para una función exponencial f(x)=ex, la derivada es f′(x)=ex.",Llama3,4
+101,RdD-4,"Para una función logarítmica f(x)=ln(x), la derivada es f′(x)=x1​.",Mixtral,4
+102,RdD-4,"Se utilizan reglas específicas. Por ejemplo, la derivada de ex es ex , y la derivada de ln(x) es x1​",Gemma,3
+103,RdD-5,"Sí, la derivada de sin(x) es cos(x).",Llama3,4
+104,RdD-5,La derivada de cos(x) es −sin(x).,Mixtral,4
+105,RdD-5,"Sí, existen. Por ejemplo, la derivada de sin(x) es cos(x), y la de cos(x) es −sin(x).",Gemma,4
+106,AdlD-1,Los puntos críticos se encuentran donde f′(x)=0 o f′(x) no existe.,Llama3,4
+107,AdlD-1,"Se usa la prueba de la primera derivada: si f′(x) cambia de positivo a negativo, hay un máximo local; si cambia de negativo a positivo, hay un mínimo local.",Mixtral,4
+108,AdlD-1,Los máximos y mínimos de una función ocurren donde su derivada es cero o no existe.,Gemma,3
+109,AdlD-2,La derivada proporciona la pendiente de la tangente a la gráfica en un punto dado.,Llama3,5
+110,AdlD-2,La derivada indica si la función está aumentando o disminuyendo en ese punto.,Mixtral,4
+111,AdlD-2,La derivada en un punto indica la pendiente de la tangente a la gráfica en ese punto.,Gemma,5
+112,AdlD-3,"En economía, se puede usar para maximizar beneficios o minimizar costos encontrando puntos críticos de funciones de ingreso y costo.",Llama3,4
+113,AdlD-3,"En negocios, se pueden usar para optimizar producción y logística analizando funciones de costo y demanda.",Mixtral,3
+114,AdlD-3,"Se utilizan para optimizar funciones, como minimizar costos o maximizar ganancias.",Gemma,3
+115,AdlD-4,"La segunda derivada indica la concavidad de la función: si f′′(x)>0, la función es cóncava hacia arriba; si f′′(x)<0, es cóncava hacia abajo.",Llama3,4
+116,AdlD-4,Ayuda a identificar puntos de inflexión donde la concavidad cambia.,Mixtral,5
+117,AdlD-4,Proporciona información sobre la concavidad de la función y los puntos de inflexión,Gemma,3
+118,AdlD-5,La velocidad es la derivada de la posición respecto al tiempo: v(t)=dtd​s(t).,Llama3,3
+119,AdlD-5,La aceleración es la derivada de la velocidad respecto al tiempo: a(t)=dtd​v(t).,Mixtral,4
+120,AdlD-5,Se utiliza para calcular velocidad (derivada de la posición) y aceleración (derivada de la velocidad).,Gemma,4
+121,TdVM-1,"Si f es continua en [a,b] y derivable en (a,b), entonces existe c∈(a,b) tal que f′(c)=b−af(b)−f(a)​.",Llama3,5
+122,TdVM-1,"Garantiza que en algún punto c dentro del intervalo, la derivada de f es igual a la pendiente de la secante que une f(a) y f(b).",Mixtral,3
+123,TdVM-1,"Establece que si una función es continua en un intervalo cerrado y derivable en el intervalo abierto, entonces existe al menos un punto en el intervalo donde la derivada es igual a la pendiente de la secante.",Gemma,5
+124,TdVM-2,El teorema del valor medio asegura que hay al menos un punto c donde la tangente (derivada) es paralela a la secante que une los extremos del intervalo.,Llama3,4
+125,TdVM-2,La pendiente de la secante es b−af(b)−f(a)​ y existe un c tal que f′(c)=b−af(b)−f(a)​.,Mixtral,4
+126,TdVM-2,El teorema garantiza la existencia de un punto donde la tangente es paralela a la secante.,Gemma,4
+127,TdVM-3,"La función debe ser continua en el intervalo cerrado [a,b].",Llama3,3
+128,TdVM-3,"La función debe ser derivable en el intervalo abierto (a,b).",Mixtral,4
+129,TdVM-3,La función debe ser continua en el intervalo cerrado y derivable en el intervalo abierto.,Gemma,4
+130,TdVM-4,Proporciona una herramienta para probar la existencia de soluciones intermedias.,Llama3,5
+131,TdVM-4,"Ayuda a establecer propiedades de las funciones, como el crecimiento y comportamiento local.",Mixtral,5
+132,TdVM-4,"Es fundamental en el análisis de funciones, ya que proporciona información sobre la tasa de cambio promedio de la función.",Gemma,4
+133,TdVM-5,"El teorema del valor medio se aplica a funciones continuas en [a,b] y derivables en (a,b).",Llama3,3
+134,TdVM-5,El teorema del valor medio generalizado puede aplicarse a funciones no derivables en puntos aislados dentro del intervalo.,Mixtral,4
+135,TdVM-5,El teorema del valor medio generalizado se aplica a funciones con más de una variable.,Gemma,5
+136,DdPyG-1,Se mantiene constante todas las variables excepto la que se está derivando.,Llama3,3
+137,DdPyG-1,"Ejemplo: Si f(x,y)=x2+y2, entonces la derivada parcial respecto a x es ∂x∂f​=2x.",Mixtral,4
+138,DdPyG-1,"Se calcula derivando la función respecto a una variable, manteniendo las demás constantes.",Gemma,5
+139,DdPyG-2,"Representa la tasa de cambio de la función en la dirección de una variable específica, manteniendo las otras variables constantes.",Llama3,3
+140,DdPyG-2,Corresponde a la pendiente de la curva que se obtiene al cortar la superficie con un plano paralelo al eje de esa variable.,Mixtral,3
+141,DdPyG-2,Es la pendiente de la tangente a la curva en la dirección de la variable.,Gemma,4
+142,DdPyG-3,El gradiente es un vector que contiene todas las derivadas parciales de una función de varias variables.,Llama3,5
+143,DdPyG-3,"Para f(x,y,z), el gradiente es ∇f=(∂x∂f​,∂y∂f​,∂z∂f​).",Mixtral,5
+144,DdPyG-3,Es un vector que contiene todas las derivadas parciales de la función.,Gemma,4
+145,DdPyG-4,El gradiente se usa para encontrar los puntos críticos (donde el gradiente es cero).,Llama3,3
+146,DdPyG-4,Ayuda a determinar direcciones de descenso para minimizar funciones (método del gradiente descendente).,Mixtral,5
+147,DdPyG-4,Indica la dirección de máximo crecimiento de una función en un punto dado.,Gemma,4
+148,DdPyG-5,El gradiente apunta en la dirección de máximo crecimiento de la función en ese punto.,Llama3,4
+149,DdPyG-5,La magnitud del gradiente indica la tasa de cambio en esa dirección.,Mixtral,5
+150,DdPyG-5,Se utiliza para determinar la dirección de máximo crecimiento de una función en un punto dado.,Gemma,3
